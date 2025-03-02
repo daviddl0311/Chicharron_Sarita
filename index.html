@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicharronería Mamá Sarita</title>
+    <link rel="website Icon" type="png" href="img/Icon-MamaSarita.png">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="flex-row center column">
+        <div class="texto flex-column">
+            <div class="texto-1">
+                <h1>¡BIENVENIDOS!</h1>
+            </div>
+            <div class="texto-2"> 
+                <h2>Descubre nuestros deliciosos chicharrones y sumérgete en el sabor auténtico. ¡No podrás resistirte!</h2>
+            </div>
+            <a id="info" href="informacion.html" target="_blank">
+                <div class="div-center texto-2 border info shake-bottom">
+                    INFORMACIÓN
+                </div>
+            </a> 
+        </div>
+        <div class="img div-center">
+            <img src="img/Logo-MamaSarita.png" alt="Mamá Sarita" class="logo">
+        </div>
+    </header>
+
+    <main class="center">
+        <section>
+            <article class="texto-2">
+                <div class="padding center">
+                    <h1 class="texto-3">¿HAMBRE YA? ¡ORDENE AHORA!</h1>
+                </div>
+                <div class="padding center">
+                    <h2 class="texto-4">Completa este formulario con tus datos y ¡LISTO!</h2>
+                </div>
+                <div class="padding div-center flex-row-button">
+                    <button onclick="location.href='php/comentario.php'" class="texto-2">Ir a Formulario</button>
+                    <a href="https://api.whatsapp.com/send?phone=51955369597&text=Hola, ¡Estoy interesad@!" target="_blank" id="whatsapp">Contáctame por WhatsApp</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <main class="center padding-2 preguntas">
+        <section>
+            <article class="texto-2">
+                <div class="center padding">
+                    <h1 class="center">PREGUNTAS FRECUENTES</h1>
+                </div>
+                
+                <div class="flex-column-details center padding-2">
+                    <details>
+                        <summary>¿De que manera se sirven las porciones? </summary>
+                        <p>¡Saborea la perfección crocante del chicharrón junto a una sarsa criolla fresca y guarniciones de mote y camote!</p>
+                    </details>
+                    <details>
+                        <summary>¿Cuál es el lugar designado para retirar mi pedido?</summary>
+                        <p>¡Te esperamos en la M.z. "A" L.t. 20 Urb. El Molino - Los Olivos!</p>
+                        <p>
+                            &#128073; <a href="https://goo.gl/maps/8XQrxVoPyZJCUrzB9" target="_blank" class="g-maps">Encuéntranos fácilmente en Google Maps. ¡Te esperamos!</a> 
+                        </p>
+                    </details>
+                    <details>
+                        <summary>¿Cúal es el método de pago que aceptan? ¿Aceptan PLIN o YAPE?</summary>
+                        <p>Ofrecemos varias opciones de pago para tu comodidad: efectivo, transferencia a cuentas BCP o BBVA, además de YAPE y PLIN. Si necesitas realizar una transferencia, contáctanos y te proporcionaremos los detalles de la cuenta correspondiente. ¡Estamos aquí para ayudarte!</p>
+                    </details>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>
